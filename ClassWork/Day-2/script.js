@@ -1,9 +1,6 @@
 
 // console.log(React)
 
-// const change = "the rest of MDN";
-// change.style.color = "red" 
-
 const h1 = React.createElement('h1', {
     style: {
         font:'72px', 
