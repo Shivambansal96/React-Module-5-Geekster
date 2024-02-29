@@ -19,7 +19,7 @@ const pTwoPartTwo = React.createElement('span',{}, ' and other intermediate to a
 const pThree = React.createElement('p', {}, 'If you are a complete beginner, web development can be challenging — we will hold your hand and provide enough detail for you to feel comfortable and learn the topics properly. You should feel at home whether you are a student learning web development (on your own or as part of a class), a teacher looking for class materials, a hobbyist, or someone who just wants to understand more about how web technologies work.')
 
 
-const div = React.createElement('div', {style: {width:'60%'}}, [h1, pOne, pTwoPartOne, anchorTag, pTwoPartTwo, pThree])
+const div = React.createElement('div', {style: {width:'35%'}}, [h1, pOne, pTwoPartOne, anchorTag, pTwoPartTwo, pThree])
 
 // const root = document.getElementById('root');
 // ReactDOM.render(div, root);
