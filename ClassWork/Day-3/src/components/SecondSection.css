@@ -1,0 +1,133 @@
+
+#sectionTwo {
+    /* overflow-x: none; */
+    height: 100vh;
+    width: 98vw;
+    padding: 2%;
+
+    /* border: solid 2px red; */
+
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+#left-side, #right-side {
+    width: 50%;
+    /* border: solid 2px red; */
+
+}
+
+#left-side > img  {
+    margin-top: 5%;
+    width: 50%;
+    height: 70%;
+
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+#right-side {
+    /* border: solid 2px black; */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 0 6%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+}
+
+#right-side-one {
+    font-size: 20px;
+}
+
+#right-side-three {
+    /* border: solid 2px red; */
+    font-size: 20px;
+    height: 40px;
+    width: 30%;
+}
+
+#right-side-three button{
+    border: white;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.75);
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+
+
+}
+
+
+#right-side-three button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: blue solid 1px;
+    color: blue;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 800px) {
+    #sectionTwo {
+        display: flex;
+        flex-direction: column;
+        /* height: 50%; */
+    }
+
+    #left-side, #right-side {
+        height: 50%;
+        width: 100%;
+        /* border: solid 2px red; */
+    }
+
+
+    #left-side > img {
+        position: static;
+
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #right-side {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #right-side {
+        height: 70%;
+        /* padding-top: 40px; */
+        gap: 2%;
+    }
+    
+    #right-side-one {
+        font-size: 15px;
+    }
+
+    #right-side-two {
+        font-size: 13px;
+    }
+
+    #right-side-three {
+        padding-top: 6%;
+        height: 60px;
+        width: 60%;
+    }
+
+    #right-side-three button{
+        font-weight: 500;
+    }
+
+}
+
+
+

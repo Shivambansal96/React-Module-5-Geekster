@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 70px;
+    width: 100vw;
+    /* border: solid 2px red; */
+    position: fixed;
+    z-index: 5;
+
+    background-color: white;
+    display: flex;
+}
+
+#left, #mid, #right {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    /* border: solid 2px cyan; */
+
+    gap: 10px;
+    width: 30%;
+
+}
+
+#left h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#mid {
+    /* border: solid 2px green; */
+
+    font-weight: 500;
+    gap: 5%;
+    width: 60%;
+}
+
+#mid a {
+    text-decoration: none;
+}
+
+
+#quote2, #restaurant2, #foods2, #contact2 {
+    color: black;
+}
+
+#home2 {
+    color: blue;
+}
+
+#right {
+    /* border: solid 2px blue; */
+
+    width: 30%;
+}
+
+#quote2:hover, #restaurant2:hover, #foods2:hover, #contact2:hover {
+    color: blue;
+
+    cursor: pointer;
+}
+
+#button-container {
+    height: 60%;
+    width: 30%;
+    border: none;
+    /* border: solid 2px orangered; */
+}
+
+#right button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 14px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+#right button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 160, 1);
+
+}
+
+#menu-icon-phone-view {
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    #button-container {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #left, #right , #menu-icon-phone-view {
+        /* border: solid 2px red; */
+    }
+
+    #left {
+        width: 50%;
+        /* display: flex;
+        justify-content: center;
+        align-content: center; */
+    }
+
+    #mid {
+        display: none;
+    }
+
+    #right {
+        width: 35%;
+    }
+
+    #button-container {
+        width: 65%;
+    }
+
+    #menu-icon-phone-view {
+        display: block;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
