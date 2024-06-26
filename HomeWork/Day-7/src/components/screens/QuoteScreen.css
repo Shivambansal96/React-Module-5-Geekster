@@ -1,0 +1,32 @@
+    
+#quote-screen-main {
+    /* border: solid 3px red; */
+    padding: 7% 6%;
+    /* padding-top: 7%; */
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 70px;
+
+}
+
+#quote-screen-two {
+    /* background-color: red; */
+    /* padding-top: 7%; */
+    border: solid .1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+    
+    font-size: 14px;
+}
+
+#quote-screen-two:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+#quote-screen-two p {
+    color: rgba(0, 0, 0, 0.7);
+}
